@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { font-family: 'Inter', sans-serif; @apply bg-gray-100 text-gray-900; }
+.btn-cta { @apply bg-cta hover:bg-cta-hover text-white font-medium py-2 px-4 rounded transition; }
+.btn-accent { @apply bg-accent hover:bg-accent-hover text-primary font-medium py-2 px-4 rounded transition; }
+.card { @apply bg-white rounded shadow-sm hover:shadow-md transition; }
